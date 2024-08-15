@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-
 Languages
 ------
 English, French, Russian
@@ -20,6 +19,7 @@ Research interests
 ------
 International Political Communication, Media and Global Governance, Chinese and Russian Foreign Policy, Norms and IOs
 
+
 WORK
 ======
 2023.9   Assistant Professor 
@@ -27,6 +27,7 @@ School of Government and Public Affairs, Communication University of China
 
 2021.10-2023.7  Postdoctoral Faculty Fellow 
 School of Government and Public Affairs, Communication University of China 
+
 
 EDUCATION
 ======
@@ -39,7 +40,8 @@ Media and Communication, École de Communication, Sciences Po Paris & Fudan Univ
 2010-2014  BA
 International Relations, The School of International Relations and Public Affairs, Fudan University. Term abroad at University of Birmingham
 
-For more info
+
+FOR MROE INFO
 ======
 You can find my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
