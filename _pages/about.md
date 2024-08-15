@@ -44,4 +44,4 @@ For more info
 You can find my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
 [Email](changzhang@cuc.edu.cn ) / [Contact](+86-19502140553)
-————————————————
+
