@@ -12,9 +12,9 @@ title                    : "CHANG ZHANG"
 title_separator          : "-"
 name                     : &name "Chang Zhang"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https:/Carlycici.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "Carlycici/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -76,11 +76,11 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
-    title: 'Books'
+    title: 'Academic'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Commentaries'    
   conferences:
-    title: 'Conference Papers'
+    title: 'Conference'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
