@@ -163,7 +163,7 @@ function switchLanguage(lang) {
   if (lang === 'zh' && !currentUrl.includes('index_zh.html')) {
       window.location.href = 'index_zh.html';
   } else if (lang === 'en' && !currentUrl.includes('index_en.html')) {
-      window.location.href = 'index_en.html';
+      window.location.href = 'index.html';
   }
 }
 
@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var currentUrl = window.location.href;
   if (currentUrl.includes('index_zh.html')) {
       document.getElementById('chinese-btn').classList.add('active');
-  } else if (currentUrl.includes('index_en.html')) {
+  } else if (currentUrl.includes('index.html')) {
       document.getElementById('english-btn').classList.add('active');
   }
 });
