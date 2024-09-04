@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>changzhang's page</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Chang Zhang">张畅</h1>
+
+          <p class="title">中国传媒大学</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>联系</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">邮箱</p>
+
+              <a href="changzhang@cuc.edu.cn" class="contact-link">changzhang@cuc.edu.cn</a>
+            </div>
+
+          </li>
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">电话</p>
+
+              <a href="+86-19502140553" class="contact-link">+86-19502140553</a>
+            </div>
+
+          </li> -->
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 23, 1982</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Sacramento, California, USA</address>
+            </div>
+
+          </li> -->
+
+        </ul>
+
+        <div class="separator"></div>
+
+
+      </div>
+
+      <!-- 语言切换按钮 -->
+<div class="language-switch">
+  <button id="chinese-btn" class="language-button" onclick="switchLanguage('zh')">中文</button>
+  <button id="english-btn" class="language-button" onclick="switchLanguage('en')">英文</button>
+</div>
+
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>简介</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>研究</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>教学</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>奖励与荣誉</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="简介">
+
+        <header>
+          <h2 class="h2 article-title">简介</h2>
+        </header>
+
+        <section class="about-text">
+          <!-- <p>
+            这里可以放一段
+          </p>
+
+          <p>
+            自我介绍！
+          </p> -->
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">研究领域</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <p class="service-item-text">
+                  中国视角
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <p class="service-item-text">
+                  国际关系理论
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <p class="service-item-text">
+                  全球治理
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <p class="service-item-text">
+                  国际政治传播
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <p class="service-item-text">
+                  公共外交
+                </p>
+              </div>
+
+            </li>
+
+
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">工作经历</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">副教授</h4>
+
+              <span>2024.8-至今</span>
+
+              <p class="timeline-text">
+                中国传媒大学政府与公共事务学院
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">讲师</h4>
+
+              <span>2023.11-2024.7</span>
+
+              <p class="timeline-text">
+                中国传媒大学政府与公共事务学院
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">师资博士后</h4>
+
+              <span>2021.10-2023.7</span>
+
+              <p class="timeline-text">
+                中国传媒大学政府与公共事务学院
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">学习经历</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">国际关系学 博士（全额奖学金）</h4>
+
+              <span>2016.10-2021.06</span>
+
+              <p class="timeline-text">
+                英国华威大学政治学与国际研究学院
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">国际传播学 硕士（双学位）</h4>
+
+              <span>2015.09-2016.06</span>
+
+              <p class="timeline-text">
+                复旦大学新闻学院
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">国际传播学 硕士（双学位）</h4>
+
+              <span>2014.09-2015.06</span>
+
+              <p class="timeline-text">
+                巴黎政治大学传播学院
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">国际政治学 学士</h4>
+
+              <span>2010.9-2014.06</span>
+
+              <p class="timeline-text">
+                复旦大学国际关系与公共事务学院
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="研究">
+
+        <header>
+          <h2 class="h2 article-title">研究</h2>
+        </header>
+
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>全部</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>期刊编审</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>代表性论文</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>主要科研课题</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>全部</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>期刊编审</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>代表性论文</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>主要科研课题</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+
+            <li class="project-item  active" data-filter-item data-category="期刊编审">
+              <section class="timeline">
+
+                <div class="title-wrapper">
+                  <div class="icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+      
+                  <h3 class="h3">特刊主编</h3>
+                </div>
+      
+                <ol class="timeline-list">
+      
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">
+                      担任《Politics and Governance》(SSCI,Q2,T3)特刊主编
+                    </h4>
+                  
+                    <span>2023-2025</span>
+      
+                    <p class="timeline-text">
+                      特刊主题：《Technology and Governance in the Age of Web 3.0》，主要探讨 Web 3.0 时代人工智能、元宇宙、区块链等技术与治理、安全和伦理的关系
+                    </p>
+      
+                  </li>
+      
+  
+
+
+                </ol>
+      
+              </section>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="代表性论文">
+              
+              <!-- academic -->
+              <section class="timeline">
+
+                <div class="title-wrapper">
+                  <div class="icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+      
+                  <h3 class="h3">学术</h3>
+                </div>
+      
+                <ol class="timeline-list">
+
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">
+                     </h4>
+                  
+                    <span>2024</span>
+      
+                    <p class="timeline-text">
+                      Zhang, C., & Zhao, X. (2024). China, media, and international conflicts: edited by Shixin Ivy Zhang and Altman Yuzhu Peng, Taylor & Francis, London, 2023, 226 pp., $160.00 (hardcover), ISBN-13: 9781032198736.
+                      <a href=javascript:void(0); target="_blank">查看原文</a>
+                  
+                      <!-- 需要添加超链接的话，将href=后改为"pdf文件地址"即可，如：href="1.pdf" -->
+
+                    </p>
+      
+                  </li>
+
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">
+                     </h4>
+                  
+                    <span>2024</span>
+      
+                    <p class="timeline-text">
+                      张畅, & 赵雪波. (2024). 论中国国际关系学的三次历史转向. 中国社会科学文摘, (6), 103-104.
+                      <a href=javascript:void(0); target="_blank">查看原文</a>
+                  
+                      <!-- 需要添加超链接的话，将href=后改为"pdf文件地址"即可，如：href="1.pdf" -->
+
+                    </p>
+      
+                  </li>
+
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">
+                     </h4>
+                  
+                    <span>2023</span>
+      
+                    <p class="timeline-text">
+                      Zhang, C., & Zhou, T. (2023). Russia’s strategic communication during the Ukraine crisis (2013–2014): Victims, hypocrites, and radicals. Discourse & Communication, 17(6), 784-810.
+                      <a href=javascript:void(0); target="_blank">查看原文</a>
+                  
+                      <!-- 需要添加超链接的话，将href=后改为"pdf文件地址"即可，如：href="1.pdf" -->
+
+                    </p>
+      
+                  </li>
+      
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">
+                     </h4>
+                  
+                    <span>2023.08</span>
+      
+                    <p class="timeline-text">
+                      Chang Zhang, “Authoritarian Norm Contestation and International Broadcasting: RT's Norm Contestation Strategy During the Ukraine Crisis”, International Politics, online. https://doi.org/10.1057/s41311-023-00513-0 (SSCI, Q2)
+                      
+                      <a href=javascript:void(0); target="_blank">查看原文</a>
+                  
+                      <!-- 需要添加超链接的话，将href=后改为"pdf文件地址"即可，如：href="1.pdf" -->
+
+                    </p>
+      
+                  </li>
+      
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">
+                     </h4>
+                  
+                    <span>2023.07</span>
+      
+                    <p class="timeline-text">
+                      Chang Zhang and Zi Wang, Despicable ‘other’ and Innocent ‘us’: Emotion Politics in the Time of the Pandemic. Humanities and Social Sciences Communications. online.https://doi.org/10.7910/DVN/WOHWYD (SSCI, Q1)
+                      <a href=javascript:void(0); target="_blank">查看原文</a>
+                  
+                      <!-- 需要添加超链接的话，将href=后改为"pdf文件地址"即可，如：href="1.pdf" -->
+
+                    </p>
+      
+                  </li>
+      
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">
+                     </h4>
+                  
+                    <span>2023.05</span>
+      
+                    <p class="timeline-text">
+                      Zhang, Chang, and Ting Zhou. Russia’s Strategic Communication During the Ukraine Crisis (2013–2014): Victims, Hypocrites, and Radicals. Discourse & Communication. https://doi.org/10.1177/175048132311731 (SSCI, Q4)
+                      <a href=javascript:void(0); target="_blank">查看原文</a>
+                  
+                      <!-- 需要添加超链接的话，将href=后改为"pdf文件地址"即可，如：href="1.pdf" -->
+
+                    </p>
+      
+                  </li>
+
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">
+                     </h4>
+                  
+                    <span>2023.05</span>
+      
+                    <p class="timeline-text">
+                      Wang, Zi, Chang Zhang, and Shiyu Li. Does Nationalism Motivate or Demotivate? Unpacking Complex Identity-Motivation Nexus in the Context of Chinese Learners of Japanese. Language and Intercultural Communication. https://doi.org/10.1080/14708477.2023.2195855 (SSCI, Q3)
+
+                    <a href=javascript:void(0); target="_blank">查看原文</a>
+                  
+                      <!-- 需要添加超链接的话，将href=后改为"pdf文件地址"即可，如：href="1.pdf" -->
+
+                    </p>
+      
+                  </li>
+                  
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">
+                     </h4>
+                  
+                    <span>2023.02</span>
+      
+                    <p class="timeline-text">
+                      Zhang, Chang, Zhang, Dechun &Shao, Hsuan lei, The Softening of Chinese Digital Propaganda: Evidence From the People’s Daily Weibo Account During the Pandemic, Frontiers in Psychology, online.  https://doi.org/10.3389/fpsyg.2023.1049671 (SSCI, Q2)
+
+                    <a href=javascript:void(0); target="_blank">查看原文</a>
+                  
+                      <!-- 需要添加超链接的话，将href=后改为"pdf文件地址"即可，如：href="1.pdf" -->
+
+                    </p>
+      
+                  </li>
+
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">
+                     </h4>
+                  
+                    <span>2022.12</span>
+      
+                    <p class="timeline-text">
+                      Zhang, Chang, Book Review: China’s Digital Presence in the Asia-Pacific: Culture, Technology, and Platforms, Media International Australia, online. https://doi.org/10.1177/1329878X221145976 (SSCI, Q4)
+
+                    <a href=javascript:void(0); target="_blank">查看原文</a>
+                  
+                      <!-- 需要添加超链接的话，将href=后改为"pdf文件地址"即可，如：href="1.pdf" -->
+
+                    </p>
+      
+                  </li>
+
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">
+                     </h4>
+                  
+                    <span>2022.11</span>
+      
+                    <p class="timeline-text">
+                      Zhang, Chang. The Three Paths of Media and Global Governances, Journalism Lover, 2022, 539 (11) (媒介与全球治理的三重路径, 新闻爱好者, 2022 (11) : 539. 10.16017/j.cnki.xwahz.2022.11.030  (CSSCI Extended) 
+
+                    <a href=javascript:void(0); target="_blank">查看原文</a>
+                  
+                      <!-- 需要添加超链接的话，将href=后改为"pdf文件地址"即可，如：href="1.pdf" -->
+
+                    </p>
+      
+                  </li>
+
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">
+                     </h4>
+                  
+                    <span>2022.09</span>
+      
+                    <p class="timeline-text">
+                      Zhang, Chang, Blanchard, Philippe& Zhang, Dechun, International Broadcasting in the Time of Geopolitical Crises: Comparing Communication Strategies of CGTN and RT, Journalism Practice, online.https://doi.org/10.1080/17512786.2022.2140445 (SSCI, Q2)
+
+                    <a href=javascript:void(0); target="_blank">查看原文</a>
+                  
+                      <!-- 需要添加超链接的话，将href=后改为"pdf文件地址"即可，如：href="1.pdf" -->
+
+                    </p>
+      
+                  </li>
+                  
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">
+                     </h4>
+                  
+                    <span>2020.06</span>
+      
+                    <p class="timeline-text">
+                      Krickovic, Andrej & Zhang, Chang. Fears of Falling Short vs. Anxieties of Decline: Explaining Russia and China’s Divergent Approaches to Status-Seeking. The Chinese Journal of International Politics, 13(2): 219-251. https://doi.org/10.1093/cjip/poaa006 (SSCI, Q2)
+
+
+                    <a href=javascript:void(0); target="_blank">查看原文</a>
+                  
+                      <!-- 需要添加超链接的话，将href=后改为"pdf文件地址"即可，如：href="1.pdf" -->
+
+                    </p>
+      
+                  </li>
+
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">
+                     </h4>
+                  
+                    <span>2019.06</span>
+      
+                    <p class="timeline-text">
+                      Zhang, Chang & Wu, Ruiqin. Battlefield of Global Ranking: How Do Power Rivalries Shape Soft Power Index Building? Global Media and China, 4(2): 179–202. https://doi.org/10.1177/2059436419855876  (ESCI)
+
+
+                    <a href=javascript:void(0); target="_blank">查看原文</a>
+                  
+                      <!-- 需要添加超链接的话，将href=后改为"pdf文件地址"即可，如：href="1.pdf" -->
+
+                    </p>
+      
+                  </li>
+
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">
+                     </h4>
+                  
+                    <span>2019.04</span>
+      
+                    <p class="timeline-text">
+                      Shen, Guolin., Fan, Xiangchong & Zhang, Chang.  Contesting for Discursive Power: Content Analysis of China and Russia’s TV Channels’ Digital Discourse [J], News Journalist, 2019(04):65-77(沈国麟, 樊祥冲, 张畅. (2019). 争夺话语权:中俄国家电视台在社交媒体上的话语传播[J].新闻记者, 2019 (04):65-77. (CSSCI)
+
+
+                    <a href=javascript:void(0); target="_blank">查看原文</a>
+                  
+                      <!-- 需要添加超链接的话，将href=后改为"pdf文件地址"即可，如：href="1.pdf" -->
+
+                    </p>
+      
+                  </li>
+
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">
+                     </h4>
+                  
+                    <span>2018.12</span>
+      
+                    <p class="timeline-text">
+                      Zhang, Chang. Internet and Global Social Movement. In Shen Guolin (Ed.), Internet and Global Communication: Theories and Cases. Shanghai, Fudan University Press (张畅 (2018) 第五章: 互联网与全球社会运动, 沈国麟编, 互联网与全球传播:理论与案例 . 上海，复旦大学出版社.)
+
+
+                    <a href=javascript:void(0); target="_blank">查看原文</a>
+                  
+                      <!-- 需要添加超链接的话，将href=后改为"pdf文件地址"即可，如：href="1.pdf" -->
+
+                    </p>
+      
+                  </li>
+
+                </ol>
+      
+              </section>
+
+              <!-- Commentaries -->
+              <section class="timeline">
+
+                <div class="title-wrapper">
+                  <div class="icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+      
+                  <h3 class="h3">评述</h3>
+                </div>
+      
+                <ol class="timeline-list">
+      
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">
+                     </h4>
+                  
+                    <span>2019.07</span>
+      
+                    <p class="timeline-text">
+                      Zhang, Chang., & Ingersleben-Seip, N. von. US-China Trade War is Making China Stronger. The Conversation. http://theconversation.com/us-china-trade-war-is-making-china-stronger-118852
+                      
+                    <a href=javascript:void(0); target="_blank">查看原文</a>
+                  
+                      <!-- 需要添加超链接的话，将href=后改为"pdf文件地址"即可，如：href="1.pdf" -->
+
+                    </p>
+      
+                  </li>
+
+      
+                </ol>
+      
+              </section>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="主要科研课题">
+              
+              <!-- 省级  -->
+              <section class="timeline">
+
+                <div class="title-wrapper">
+                  <div class="icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+      
+                  <h3 class="h3">省部级</h3>
+                </div>
+      
+                <ol class="timeline-list">
+      
+                  <li class="timeline-item">
+
+                    <span>2023立项</span>
+      
+                    <p class="timeline-text">
+                      北京市教育科学规划课题《新型国际关系思想融入国际关系专业课程的逻辑理路与实践架构研究》青年专项
+                    </p>
+      
+                  </li>
+      
+                </ol>
+      
+              </section>
+
+              <!-- 纵向其他 -->
+              <section class="timeline">
+
+                <div class="title-wrapper">
+                  <div class="icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+      
+                  <h3 class="h3">纵向其他</h3>
+                </div>
+      
+                <ol class="timeline-list">
+      
+                  <li class="timeline-item">
+
+                    <span>2022-2023</span>
+      
+                    <p class="timeline-text">
+                      《俄乌冲突背景下俄罗斯舆论战策略及效研究》（博士后基金面上项目）
+                    </p>
+      
+                  </li>
+
+                  <li class="timeline-item">
+
+                    <span>2022-2023</span>
+      
+                    <p class="timeline-text">
+                      北京市大中小学思想政治教育一体化研究项目《国家安全观融入大中小学学生思想政治教育的场景化实践研究》支持项目
+                    </p>
+      
+                  </li>
+      
+                </ol>
+      
+              </section>
+
+              <!-- 校级 -->
+              <section class="timeline">
+
+                <div class="title-wrapper">
+                  <div class="icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+      
+                  <h3 class="h3">校级</h3>
+                </div>
+      
+                <ol class="timeline-list">
+      
+                  <li class="timeline-item">
+
+                    <span>2022-2023</span>
+      
+                    <p class="timeline-text">
+                      《冲突时期国际传播“中俄对外传播策略比较研究》（中国传媒大学亚洲传媒研究中心学术论文发表资助项目）
+                    </p>
+      
+                  </li>
+
+                  <li class="timeline-item">
+
+                    <span>2023-2025</span>
+      
+                    <p class="timeline-text">
+                      《中国全球治理观对东盟四国传播效果比较研究》（中国传媒大学亚洲传媒研究中心学
+术论文发表资助项目）</p>
+      
+                  </li>
+
+                  <li class="timeline-item">
+
+                    <span>2023-2024</span>
+      
+                    <p class="timeline-text">
+                      《短视频时代的视觉国际政治研究》（中央高校基本科研业务）
+                    </p>
+      
+                  </li>
+      
+                </ol>
+      
+              </section>
+            </li>
+          </ul>
+
+        </section>
+
+
+
+
+        <!-- <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="教学">
+
+        <header>
+          <h2 class="h2 article-title">教学</h2>
+        </header>
+
+              <section class="timeline">
+
+                <div class="title-wrapper">
+                  <div class="icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+      
+                  <h3 class="h3">主要讲授课程</h3>
+                </div>
+      
+                <ol class="timeline-list">
+                  
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">《国际政治概论》</h4>
+      
+                  </li>
+
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">《外交学》</h4>
+      
+                  </li>
+      
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">《国际关系史》</h4>
+      
+                  </li>
+
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">《国际关系理论与方法》</h4>
+      
+                  </li>
+
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">《国际安全教育》</h4>
+      
+                  </li>
+
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title">《政治学英语》</h4>
+      
+                  </li>
+      
+
+      
+                </ol>
+      
+              </section>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="奖励与荣誉">
+
+        <header>
+          <h2 class="h2 article-title">奖励与荣誉</h2>
+        </header>
+
+        <!-- awards -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">奖励与荣誉</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <span>2024</span>
+
+              <p class="timeline-text">
+                中国传媒大学 校级青年拔尖人才
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <span>2023.08</span>
+
+              <p class="timeline-text">
+                中国传媒大学首届“三牛奖” “拓荒牛奖”—科学研究类（高质量科研成果类）
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <span>2020.03</span>
+
+              <p class="timeline-text">
+                欧盟委员会跨大西洋欧洲政治化研究小组访学资助 3000 欧元</p>
+
+            </li>
+
+            <li class="timeline-item">
+              <span>2016-2020</span>
+
+              <p class="timeline-text">
+                国家留学基金委——华威大学联合博士全额奖学金 80 万人民币
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <span>2016</span>
+
+              <p class="timeline-text">
+                上海市优秀毕业生（复旦大学新闻学院研究生）
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+              <span>2015</span>
+
+              <p class="timeline-text">
+                复旦大学-巴黎政治大学联合项目奖学金 15000 人民币
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <span>2014</span>
+
+              <p class="timeline-text">
+                复旦大学国关学院院长特别推荐奖
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
